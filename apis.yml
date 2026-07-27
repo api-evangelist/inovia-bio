@@ -1,7 +1,14 @@
 aid: inovia-bio
 name: Inovia Bio
-description: Inovia Bio is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Inovia Bio is a TechBio company delivering drug development strategy and evidence generation for
+  biotech and pharmaceutical organizations, aiming to combine big-pharma impact with biotech speed.
+  It pairs purpose-built platforms with advisory services to produce regulatory-grade evidence,
+  covering clinical development planning and trial design, therapeutic product profiles (TPP),
+  development, regulatory and commercial strategy, Integrated Evidence Plans (IEP/IEGP), Real World
+  Evidence (RWE) for regulatory submissions, and clinical program rescue. Its Study Designer platform
+  (diagity.inovia.bio) supports study design workflows. Inovia Bio is a Seedcamp portfolio company;
+  no public developer API, SDKs, or API documentation are published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/inovia-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- TechBio
+- Biotechnology
+- Pharmaceutical
+- Drug Development
+- Clinical Trials
+- Real World Evidence
+- Regulatory Strategy
+image: https://inovia.bio/hs-fs/hubfs/Inovia%20Logo%20Dark%20(1)-1.png?width=1169&height=277&name=Inovia%20Logo%20Dark%20(1)-1.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/inovia-bio-domain-security.yml
 - type: Website
-  url: http://inovia.bio
+  url: https://inovia.bio
+- type: Blog
+  url: https://blog.inovia.bio/inovia-bio-insights
+- type: Pricing
+  url: https://pages.inovia.bio/pricing
+- type: PrivacyPolicy
+  url: https://pages.inovia.bio/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/inovia-bio/
+- type: CaseStudies
+  url: https://pages.inovia.bio/case-studies
+- type: Product
+  name: Study Designer
+  url: https://diagity.inovia.bio/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
